@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Omar Machucho">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Examen DOM</title>
+</head>
+<body>
+  
+    <section>
+        <h2>Usando DOM y formularios</h2>
+        <p>Nombre: </p>
+        <p>Número de control: </p>
+
+    </section>
+    
+    <div>
+       
+        <p>Personajes favoritos</p>
+        <ul id="pers"></ul>
+        <form action="#" >
+            <input type="text" id="personaje" required>
+            <button onclick="agregarPersonajes()">Agregar</button>
+        </form>
+    </div>
+    
+    <div>
+        <p>Películas favoritas</p>
+        <ol id="pelis">
+          <li>Shrek</li>
+          <li>Un mundo feliz</li>
+          <li>La vida inútil de Pito Pérez</li>
+          <li>El club de la pelea</li>
+        </ol>
+        <button onclick="eliminar()" >Eliminar</button>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
