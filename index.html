@@ -6,22 +6,23 @@
     <link rel="stylesheet" href="estilo.css">
     <title>Examen DOM</title>
 </head>
-<body>
-  
+<body>  
+   
     <section>
         <h2>Usando DOM y formularios</h2>
         <p>Nombre: </p>
         <p>Número de control: </p>
-
     </section>
     
     <div id="d1">       
         <p>Personajes favoritos</p>
         <ul id="pers"></ul>
-        <form action="#" >
+        <div class="formulario">
+        <form class="form" action="#" >
             <input type="text" id="personaje" placeholder='Personaje' required>
             <button onclick="agregarPersonajes()">Agregar</button>
         </form>
+        </div>
     </div>
     
     <div id="d2">

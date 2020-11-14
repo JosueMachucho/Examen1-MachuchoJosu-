@@ -1,4 +1,15 @@
-li {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body{
+     background-image: url(fondo.jpg);
+      color: beige;
+    font-family: 'Rubik';
+    font-size: medium;
+    min-height: 100vh;
+    margin: 0;
+}
+
+li{
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
@@ -10,16 +21,52 @@ li {
     -ms-user-select: none;
     user-select: none;
 }
-li.select {
+
+li.select{
     background-color: #868a8d;
 }
-li:hover {
+
+li:hover{
     background: #ddd;
 }
+
+.form{
+    align-content: flex-start;
+    padding: 20px 30px;
+}
+
+.formulario{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formulario label{
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.formulario input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
 button{
     cursor: pointer;
-    border-radius: 5px;
-    background-color: rgba(31, 198, 56, 0.24);
+    background-color: #A31621;
+    border: 2px solid #A31621;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 15px;
+    width: 10%;
 }
 
 section{
@@ -27,21 +74,16 @@ section{
     background-color: rgba(162, 237, 255, 0.12);
     backdrop-filter: blur(2px);
 }
-input{
-    
-}
+
 div{
     padding: 12px 8px 12px 40px;
     backdrop-filter: blur(2px);
 }
+
 #d1{       
     background-color: rgba(53, 182, 250, 0.22);
 }
+
 #d2{       
     background-color: rgba(14, 72, 181, 0.22);
-}
-body{
-    background-image: url(fondo.jpg);
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: beige;   
 }
